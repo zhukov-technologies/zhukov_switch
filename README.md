@@ -16,29 +16,27 @@
 <a id="switch"></a>
 # Умный выключатель реле grib technology
 
-Выключатель — один из компонентов системы умного дома grib technology. Управляет [реле и розетками](https://github.com/grib-technology/grib_socket_and_relay) c помощью [ESP-NOW.](https://www.espressif.com/en/products/software/esp-now/overview).
+Выключатель — один из компонентов системы умного дома grib technology. Управляет [реле и розетками](https://github.com/grib-technology/grib_socket_and_relay) c помощью [ESP-NOW](https://www.espressif.com/en/products/software/esp-now/overview).
 
 О системе умного дома grib technology: 
 
-Шлюзом системы является устройство [Miss You Even When We're Together](https://github.com/grib-technology/grib_myewwt_clock) (MYEWWT).
+Шлюзом системы является [розетка или реле](https://github.com/grib-technology/grib_myewwt_clock), настроенные в режим шлюза.
 
-MYEWWT взаимодействует c API Telegram, позволяя пользователю отправлять команды и предоставляет на них ответ в Telegram-боте, заренее созданном пользователем. 
+Шлюз взаимодействует c API Telegram, позволяя пользователю отправлять команды и предоставляет на них ответ в Telegram-боте, заренее созданном пользователем. 
 
-MYEWWT подключается к Интернету через WI-Fi и взаимодействует с Telegram ботом, получая команды от него, обрабатывает их и управляет реле и розеткой с помощью технологии [ESP-NOW.](https://www.espressif.com/en/products/software/esp-now/overview)
+Шлюз подключается к Интернету через WI-Fi и взаимодействует с Telegram ботом, получая команды от него, обрабатывает их и управляет реле и розеткой с помощью технологии [ESP-NOW.](https://www.espressif.com/en/products/software/esp-now/overview)
 
 
 
-Возможности устройства MYEWWT:
+Возможности шлюза-розетки.
 
 * соединение с точкой доступа Wi-Fi и выход в интернет,
-* обмен данными с другими устройствами умного дома с применением технологии [ESP-NOW](https://www.espressif.com/en/products/software/esp-now/overview),
-* контроль температуры и влажности воздуха в помещении,
-* возможность смены цвета сегментов часов на любой из диапазона RGB.
+* обмен данными с другими устройствами умного дома с применением технологии [ESP-NOW](https://www.espressif.com/en/products/software/esp-now/overview).
 
 
 <a id="code"></a>
 # Подробнее о системе и коде
-Здесь и далее находится описание выключателя grib technology. Информацию о системе умного дома grib technology, особенностях кода прошивки вы можете найти [здесь](https://github.com/grib-technology/grib_myewwt_clock/blob/main/ABOUT.md).
+Здесь и далее находится описание выключателя grib technology. Информацию о системе умного дома grib technology, особенностях кода прошивки вы можете найти [здесь](https://github.com/grib-technology/grib_socket_and_relay/blob/main/ABOUT.md).
 
 <a id="components"></a>
 # Плата и основные компоненты
