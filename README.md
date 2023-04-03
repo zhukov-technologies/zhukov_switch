@@ -89,4 +89,4 @@ p.s. (system_deep_sleep() назначает таймер с процедуро�
 <a id="contacts"></a>
 # Контакты
 
-www.zhukov-tech.ru
+https://zhukov-tech.ru
