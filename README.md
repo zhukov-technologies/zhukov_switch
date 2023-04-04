@@ -36,7 +36,7 @@
 
 <a id="code"></a>
 # Подробнее о системе и коде
-Здесь и далее находится описание выключателя zhukov technologies. Информацию о системе умного дома zhukov technologies, особенностях кода прошивки вы можете найти [здесь](https://github.com/zhukov-technologies/zhukov_socket_and_relay/blob/main/ABOUT.md).
+Здесь и далее находится описание выключателя. Информацию о системе умного дома , особенностях кода прошивки вы можете найти [здесь](https://github.com/zhukov-technologies/zhukov_socket_and_relay/blob/main/ABOUT.md).
 
 <a id="components"></a>
 # Плата и основные компоненты
