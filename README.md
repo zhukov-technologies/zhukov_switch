@@ -13,7 +13,7 @@
 
 Принцип работы системы умного дома zhukov tehcnology на основе API Telegram.
 
-1. Пользователь создаёт своего бота в Telegram при помощи BotFather ([Создание бота в Telegram](https://github.com/zhukov-technologies/zhukov_myewwt_clock#bot).
+1. Пользователь создаёт своего бота в Telegram при помощи BotFather ([Создание бота в Telegram](https://github.com/zhukov-technologies/zhukov_myewwt_clock#bot)).
 2. Получив токен созданного бота, пользователь сообщает устройству ([Miss You Even When We're Together](https://github.com/zhukov-technologies/zhukov_myewwt_clock)) (MYEWWT) токен бота а также SSID и пароль Wi-Fi сети ([Настройка MYEWWT](https://github.com/zbltrz/MYEWWT#myewwt_setup)).
 3. Отправляя сообщение боту, оно обрабатывается устройством MYEWWT.
 4. Если в систему добавлены дополнительные устройства — умные розетки, реле и т.д., команда от бота обрабатывается сначала устройством MYEWWT, затем передаётся подключенным в систему устройствам с применением технологии [ESP-NOW](https://www.espressif.com/en/products/software/esp-now/overview).
