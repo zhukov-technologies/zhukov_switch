@@ -1,5 +1,5 @@
 # Умный выключатель zhukov technologies
-Беспроводной сенсорный выключатель zhukov technologies - устройство системы умного дома на основе API Telegram.
+Беспроводной сенсорный выключатель это устройство системы умного дома на основе API Telegram.
 
 ![DSC06544](https://user-images.githubusercontent.com/84660518/156888964-e295e8a9-c531-4ee4-bc5f-3f1df61e0288.jpg)
 
